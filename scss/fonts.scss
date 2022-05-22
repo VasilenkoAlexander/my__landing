@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+// font-family: 'Montserrat';
+    // 300 - thin
+    // 400 - regural
+    // 500 - semibold
+    // 700 - bold
+@font-face {
+    font-family: 'Inconsolata__Regular';
+    src: url('/fonts/Inconsolata/Inconsolata-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Inconsolata__Medium';
+    src: url('/fonts/Inconsolata/Inconsolata-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Inconsolata__Bold';
+    src: url('/fonts/Inconsolata/Inconsolata-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}

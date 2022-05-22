@@ -1,0 +1,142 @@
+.about__page {
+    padding: 0px 20px;
+}
+.about__container {
+    height: 100vh;
+    background-color: rgba(119, 203, 255, 0.117);
+    border-radius: 60px 2px;
+    box-shadow: 0 0 20px #fff;
+ }
+.about__body { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 5px;
+}
+.about__me {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    &:not(:last-child) {
+        margin-bottom: 50px;
+    }
+ }
+.about__me_text {
+    width: 50%;
+    text-align: left;
+    padding-left: 30px;
+}
+.about__title { 
+    font-family: 'Inconsolata__Bold';
+    font-size: 60px;
+    line-height: 120%;
+}
+// .about__subtitle {}
+.subtitle__list {
+    font-family: 'Inconsolata__Regular';
+    font-size: 1.3em;
+    &:not(:last-child) {
+        margin-bottom: 60px;
+    }
+    li {
+    margin-bottom: 10px;
+      span {
+          font-family: 'Inconsolata__Medium';
+      }
+    }
+      &:last-child {
+        margin-bottom: 0;
+        }
+    }
+.about__photo {
+    margin: 0 auto;
+    text-align: center;
+    
+    img {
+        width: 450px;
+        border-radius: 10px;
+    }
+}
+.about__skills { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.skills__title { 
+    font-size: 30px;
+    font-family: "Inconsolata__Medium";
+    text-transform: uppercase;
+    line-height: 120%;
+}
+.skills__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills__items_item {
+    text-align: center;
+    margin-right: 25px;
+    cursor: progress;
+    transition: .3s all;
+    &:hover {
+        transform: scale(1.2);
+        transition: 0.3s all;
+    }
+    p {
+        padding: 10px 0 0 0;
+    }
+    i {
+        color: gold;
+        &:hover{ 
+            transform: scale(1.1);
+        }
+    } 
+    img {
+        width: 70px;
+        height: 70px;
+        text-align: center;
+    }
+    &:not(:last-child) {
+        margin-right: 40px;
+    }
+}
+
+// Звездочки на блоки
+// .fa-solid { }
+// .fa-star { }
+// .fa-regular { }
+
+@media (max-width: 1200px) {
+    .about__container {
+        height: auto;
+    }
+    .about__body { 
+        padding: 70px 5px;
+    }
+    .about__me_text {
+        width: 100%;
+    }
+    .about__title {
+        text-align: center;
+    }
+    .subtitle__list li {
+        padding: 0 0 0 25%;
+    }
+}
+@media (max-width: 1000px) {
+    .about__body { 
+        padding: 50px 5px;
+    }
+    
+}
+@media (max-width: 760px) {
+    .about__title {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    // Через гриды сделать красивый адаптив для скилов
+}

@@ -1,0 +1,81 @@
+<div class="about__container _container">
+                    <div class="about__body">
+                        <div class="about__me">
+                            <div class="about__me_text">
+                                <h2 class="about__title title">Hello, world!</h2>
+                                <div class="about__text">
+                                    <ul class="subtitle__list">
+                                    <li> <span>name:</span> Aleksandr Vasilenko;</li>
+                                    <li><span>old:</span> 27 years;</li>
+                                    <li><span>located: </span>Ukraine, Sumy region;</li>
+                                    <li><span>speciality:</span> html/css developer;</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- <div class="about__photo">
+                                <img src="img/about/me.jpg" alt="My photo">
+                            </div> -->
+                        </div>
+                        
+                        <div class="about__skills skills">
+                            <h3 class="skills__title title">My skills</h3>
+                            <div class="skills__items">
+                                <div class="skills__items_item">
+                                    <img src="img/about/html.png" alt="HTML icon">
+                                    <p>HTML</p>
+                                    <p>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </p>
+                                </div>
+                                <div class="skills__items_item">
+                                    <img src="img/about/css.png" alt="HTML icon">
+                                    <p>CSS</p>
+                                    <p>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </p>
+                                </div>
+                                <div class="skills__items_item">
+                                    <img src="img/about/sass.png" alt="SASS icon">
+                                    <p>SASS</p>
+                                    <p>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </p>
+                                </div>
+                                <div class="skills__items_item">
+                                    <img src="img/about/js.png" alt="JS icon">
+                                    <p>JS</p>
+                                    <p>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+					<i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </p>
+                                </div>
+                                <div class="skills__items_item">
+                                    <img src="img/about/Ps.png" alt="Photoshop icon">
+                                    <p>Photoshop</p>
+                                    <p>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
